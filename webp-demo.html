@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>using webp demo</title>
+
+	<style>
+		body {
+			margin: 20px;
+		}
+
+		img {
+			display: block;
+			width: 60%;
+			margin: 60px auto;
+		}
+	</style>
+</head>
+<body>
+
+	<picture>
+		<source srcset="build/images/1.webp" type="image/webp">
+		<source srcset="build/images/1.jpg" type="image/jpg">
+		<img src="build/images/1.jpg" alt="using webp demo">
+	</picture>
+	
+</body>
+</html>
